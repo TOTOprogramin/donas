@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  h1, h2, h3 {
+	color: #333;
+  }
+  
+  p {
+	color: #ffffff;
+	font-size: 20px;
+  }
+  
+  a {
+	color: #fff;
+	background-color: #00ff11;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+  }
+  
+  a:hover {
+	background-color: #05d760;
+  }
+  
+  /* Encabezado */
+  header {
+	background-color: #ffcc99;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  /* Slider de imágenes */
+  #slider {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .slider-container {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .slider-container img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Menú de donas */
+  #menu {
+	background-color: #aaa1a1;
+	padding: 20px;
+  }
+  
+  #menu h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .donas-clasicas,
+  .donas-rellenas,
+  .donas-bombitas {
+	margin-bottom: 30px;
+  }
+  
+  .donas-gallery img {
+	max-width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+  }
+  
+  /* Galería de imágenes */
+  #galeria {
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  .image-gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+  }
+  
+  .image-gallery img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Información adicional */
+  #informacion {
+	background-color: #fff;
+	padding: 20px;
+  }
+  
+  /* Testimonios o reseñas */
+  #testimonios {
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  .testimonials {
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  .testimonial {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .testimonial img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 10px;
+  }
+  
+  /* Formulario de contacto */
+  #contacto {
+	background-color: #fff;
+	padding: 20px;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  label {
+	margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+	background-color: #ff8000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #ff9933;
+  }
+  .testimonio {
+	color: #333;
+	padding: 50px;
+
+  }
+  .testimonio1{
+	font-size: 20px;
+	color: black;
+  }
+  .wasa{
+	height: 10px;
+	width: 15px;
+	color:#000000 !important ;
+	background-color: rgb(118, 219, 118);
+	padding: 15px;
+	margin: 20px;
+	
+
+  }
